@@ -1,2 +1,0 @@
-DROP DATABASE IF EXISTS JMDevelopments_db;
-CREATE DATABASE JMDevelopments_db;
