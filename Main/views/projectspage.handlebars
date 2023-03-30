@@ -1,23 +1,43 @@
 <!-- Loop over each object in the projects array -->
-{{#each projects as |project| }}
-<div class="row mb-4 project">
-  <div class="col-md-5">
-    <h2>
-      <!-- Call helper function with triple brackets to render the emoji span as HTML -->
-      <a class="text-white text-monospace"href="/project/{{project.id}}">{{project.name}}</a>
-    </h2>
-    <p>
-      {{!-- <span for="img" aria-label="money">💲</span>
-      <!-- Pass needed_funding value to the helper function -->
-      <span class="dollar-amount">{{format_amount project.needed_funding}}</span>
-      needed! --}}
-    </p>
-    <p>Created by {{project.user.name}} on {{format_date project.date_created}}</p>
-  </div>
-  <div class="col-md-7">
-    <p>
-      {{project.description}}
-    </p>
-  </div>
+<div>
+    <h1 class="d-flex justify-content-center pb-5 text-white text-monospace">Projects</h1>
 </div>
+<div class="container">
+    <div class="row">
+        {{#each projects as |project| }}
+        <div class="col-sm-4">
+            {{project.name}}
+        </div>
+        {{!-- <div class="col-sm">
+            two of three columns
+        </div>
+        <div class="col-sm">
+            three of three columns
+        </div>
+    </div>
+</div> --}}
 {{/each}}
+</div>
+</div>
+
+{{!-- <div class="container project">
+    <div class="col-sm">
+        <h2>
+            <!-- Call helper function with triple brackets to render the emoji span as HTML -->
+            <a class="text-white text-monospace" href="/project/{{project.id}}">{{project.name}}</a>
+        </h2>
+        <p>
+            {{!-- <span for="img" aria-label="money">💲</span>
+            <!-- Pass needed_funding value to the helper function -->
+            <span class="dollar-amount">{{format_amount project.needed_funding}}</span>
+            needed! --}}
+            {{!--
+        </p>
+        <p>Created by {{project.user.name}} on {{format_date project.date_created}}</p>
+    </div>
+    <div class="col-md-7">
+        <p>
+            {{project.description}}
+        </p>
+    </div>
+</div> --}}

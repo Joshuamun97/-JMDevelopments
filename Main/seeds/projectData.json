@@ -13,5 +13,10 @@
     "name": "Future Project",
     "description": "See your project idea here!",
     "needed_funding": 800
+  },
+  {
+    "name": "Future Project 1",
+    "description": "See your project idea here!",
+    "needed_funding": 800
   }
 ]
