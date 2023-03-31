@@ -1,6 +1,8 @@
 const router = require('express').Router();
 const { Project } = require('../../models');
 const withAuth = require('../../utils/auth');
+const multer = require('multer');
+const path = require('path');
 
 router.post('/', withAuth, async (req, res) => {
   try {
@@ -34,5 +36,6 @@ router.delete('/:id', withAuth, async (req, res) => {
     res.status(500).json(err);
   }
 });
+
 
 module.exports = router;

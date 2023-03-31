@@ -1,12 +1,12 @@
 [
   {
     "name": "A Night Made Simple",
-    "description": "A mobile app that will send you notifications whenever a concert is playing in your area.",
+    "description": "Tired of going out for the weekend but don't know how to make the most out of your night in? Look No Further!",
     "needed_funding": 5000
   },
   {
     "name": "OSAS (One Stop Adopt Shop)",
-    "description": "A web app that will give users 10 new technical questions each day and track their progress in things like programming, cybersecurity, database architecture, and more!",
+    "description": "A website focused on finding the right home for pets in need.",
     "needed_funding": 10000
   },
   {
@@ -15,7 +15,7 @@
     "needed_funding": 800
   },
   {
-    "name": "Future Project 1",
+    "name": "Future Project",
     "description": "See your project idea here!",
     "needed_funding": 800
   }
